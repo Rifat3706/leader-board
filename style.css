@@ -149,3 +149,43 @@ hr{
     border-radius: 50px;
     padding: 0 10px;
 }
+@media only screen and (max-width:688px) {
+    body{
+        margin: 0;
+    }
+    .header-area{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+    .section-title{
+        margin-top: 30px;
+        padding-left: 90px;
+        padding-bottom: 7px;
+    
+    }
+    .top-players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        justify-content: center;
+    }
+    .blog{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .header-area{
+        display: none;
+    }
+    .top-players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog{
+        flex-direction: column;
+    }
+}
