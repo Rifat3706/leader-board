@@ -1,0 +1,151 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+/* Header Area Styles */
+.header-area{
+    display: flex;
+    justify-content: space-around;
+    background-color: #562EFF;
+    margin-bottom: 36px;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    width: 40.42px;
+    height: 51px;
+}
+.header-logo .logo-text{
+    margin: 0;
+}
+.header-logo .logo-text a{
+    text-decoration: none;
+    color: white;
+    padding-left: 36px;
+    font-size: 24px;
+}
+.header-item{
+    display: flex;
+    align-items: center;
+}
+.header-item .header-info a{
+    text-decoration: none;
+    color: white;
+    padding-left: 36px;
+    font-size: 16px;
+}
+.header-item .header-image{
+    padding-left: 36px;
+}
+/* Top Palyers Start  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.section-title{
+    color: #562EFF;
+    margin: 30px 0;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+    padding-right: 16px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 40px;
+}
+/* Top Blogs Start  */
+.top-blogs{
+    display: flex;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 26px 0;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-image img{
+    width: 177px;
+    height: 117px;
+    padding-right: 16px;
+}
+.blog-details{
+    margin: 5px;
+}
+.blog-details h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0;
+}
+.blog-details p {
+    color: #9F9F9F;
+    font-size: 16px;
+    margin: 0;
+}
+.blog-details a{
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Letest Courses */
+.letest-courses{
+    margin-top: 20px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.course{
+    border-radius: 10px;
+}
+.course-image img{
+    width: 224px;
+    height: 104px;
+}
+.course-details .author{
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    justify-content: space-around;
+}
+.course-star .fill{
+    color: #FFC014;
+} 
+.course-star .empty{
+    color: #AEAEAE;
+}   
+/* .course-info span{
+    padding-left: 5px;
+} */
+.course-time{
+    background-color: #FEE5DF;
+    border-radius: 50px;
+    padding: 0 10px;
+}
